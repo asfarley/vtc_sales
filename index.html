@@ -3,6 +3,8 @@
   <head>
   <meta charset="UTF-8">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="jquery.sparkline.min.js" type="text/javascript"></script>
+  <script src="vtc.js" type="text/javascript"></script>
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
       rel="stylesheet">
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -39,6 +41,7 @@
           <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
+			<span class="inlinesparkline">1,4,4,7,5,9,10,2,2,4,15,2,14,15,16,5,7,8,4,23,12,4,5,7,12,4,2,14,15,16,5,7,8,4,23,12,4,5,7,12,4,9,10,2,2,4,15,2,14,15,16</span>
               <h1>Count traffic with computer vision</h1>
               <p>So much easier than manual counts, you'll never go back.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Free Trial</a></p>
@@ -49,6 +52,7 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
+			<span id="sparkline">&nbsp;</span>
               <h1>5-minute setup</h1>
               <p>Setup only requires the user to select region of interest in the video.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Download Free Trial</a></p>
