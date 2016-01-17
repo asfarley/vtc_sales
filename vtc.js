@@ -4,6 +4,16 @@
 		
         $('.inlinesparkline').sparkline('html', {type: 'bar', barColor: 'red'} ); 
 		
+		$('#rtsparkline').sparkline('html',  {
+    type: 'line',
+    lineColor: '#000000',
+    fillColor: false,
+    spotColor: '#ff0000',
+    minSpotColor: false,
+    maxSpotColor: false,
+    highlightSpotColor: false,
+    highlightLineColor: false}); 
+		
 		var values = [55, 5];
 
 // Draw a sparkline for the #sparkline element
